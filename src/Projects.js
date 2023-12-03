@@ -1,15 +1,14 @@
 import React from "react";
 import fgomes from "./images/fgomespicture.png";
 import purpleBrand from "./images/purpleBrand.png";
-import About from "./About.js";
 import "./App.css";
 
-export default function App() {
+export default function Projects() {
   return (
     <div className="App">
       <div className="container">
         <nav
-          class="navbar  bg-dark navbar-expand-lg bg-body-tertiary border border-white"
+          class="navbar  bg-dark navbar-expand-lg bg-body-tertiary"
           data-bs-theme="dark"
         >
           <div class="container-fluid">
@@ -46,7 +45,7 @@ export default function App() {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/">
+                  <a class="nav-link active" href="/">
                     Projects
                   </a>
                 </li>
@@ -59,15 +58,20 @@ export default function App() {
             </div>
           </div>
         </nav>{" "}
-        <br />
-        <button className="btn btn-outline-primary">
-          Hey, WELCOME to my Portfolio!!!
-        </button>
+        <h3></h3>
         <h3> I am</h3>
-        <h1>Fernanda Gomes</h1>
-        <h2>
-          <em>Front-end Developer </em> based in United Kingdom{" "}
-        </h2>
+        <h1>About me</h1>
+        <h2>I am Fernanda Gomes</h2>
+        <p>
+          <strong>Front-end Developer</strong> for curiosity I discovered a
+          passion for code
+        </p>
+        <p>
+          I born in Minas Gerais, Brazil, I lived in Portugal for more than 10
+          years, today I am based in United Kingdom. I love travel, I have been
+          in more than 10 countries. I love do creatif things, play intrumens,
+          to do social works.
+        </p>
         <img
           src={fgomes}
           alt="fgomes"
