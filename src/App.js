@@ -12,16 +12,15 @@ export default function App() {
           data-bs-theme="dark"
         >
           <div class="container-fluid">
-            <span>
+            <span></span>
+            <a class="navbar-brand" href="/">
               <img
                 src={logo}
                 alt="Logo"
                 className="logo d-none d-lg-block img-fluid rounded mb-2"
               />{" "}
-              <a class="navbar-brand" href="/">
-                Home
-              </a>
-            </span>
+            </a>
+
             <button
               class="navbar-toggler"
               type="button"
@@ -36,7 +35,12 @@ export default function App() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/">
+                  <a class="nav-link active" href="/">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="/">
                     About
                   </a>
                 </li>
