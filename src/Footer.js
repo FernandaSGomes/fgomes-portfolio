@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import purpleBrand from "./images/purpleBrand.png";
+import React from "react";
 import "./App.css";
+
 export default function Footer() {
   return (
     <footer>

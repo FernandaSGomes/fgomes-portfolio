@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="container">
         <Nav />
 
-        <h1>Projects</h1>
+        <h1>Let's be in Touch</h1>
 
         <img
           src={fgomes}
