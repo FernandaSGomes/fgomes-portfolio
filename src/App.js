@@ -85,7 +85,7 @@ export default function App() {
           </a>{" "}
           and is open-source on{" "}
           <a
-            href="https://github.com/FernandaSGomes/fernanda-gomes-portfolio"
+            href="https://github.com/FernandaSGomes/fgomes-portfolio"
             target="_blank"
             rel="noreferrer"
           >
