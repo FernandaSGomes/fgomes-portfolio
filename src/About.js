@@ -2,63 +2,13 @@ import React from "react";
 import fgomes from "./images/fgomespicture.png";
 import purpleBrand from "./images/purpleBrand.png";
 import "./App.css";
+import Nav from "./Nav";
 
 export default function About() {
   return (
     <div className="App">
       <div className="container">
-        <nav
-          class="navbar  bg-dark navbar-expand-lg bg-body-tertiary"
-          data-bs-theme="dark"
-        >
-          <div class="container-fluid">
-            <span></span>
-            <a class="navbar-brand" href="/">
-              <img
-                src={purpleBrand}
-                alt="purpleBrand"
-                className="purpleBrand d-none d-lg-block img-fluid rounded mb-2"
-              />{" "}
-            </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="/">
-                    Home
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active " aria-current="page" href="/">
-                    About
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/">
-                    Projects
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>{" "}
-        <h3></h3>
+        <Nav />
         <h3> I am</h3>
         <h1>About me</h1>
         <h2>I am Fernanda Gomes</h2>
