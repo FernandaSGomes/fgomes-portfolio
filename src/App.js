@@ -36,7 +36,7 @@ export default function App() {
           alt="fgomes"
           className="picture d-none d-lg-block img-fluid rounded mb-2"
         />
-        <div className="text-center mb-5">
+        <div className="cv-link text-center mb-5">
           <a className="resumeLink" href="/Cv">
             View my RESUME
           </a>
