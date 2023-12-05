@@ -98,8 +98,7 @@ h3 {
   padding: 20px;
   margin-top: -80px;
 }
-.cv-link {
-}
+
 @media (max-width: 800px) {
   .box {
     display: none;
