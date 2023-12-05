@@ -6,7 +6,7 @@ import "./App.css";
 
 export default function About() {
   return (
-    <div className="App">
+    <div className="About">
       <div className="container">
         <Nav />
         <h1>About me</h1>
@@ -33,6 +33,7 @@ export default function About() {
             here presenting You my portfolio.
           </p>
         </div>
+
         <img
           src={fgomes}
           alt="fgomes"
