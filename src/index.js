@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import About from "./About";
+import Cv from "./Cv";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import "bootstrap/dist/css/bootstrap.css";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "Contact",
     element: <Contact />,
+  },
+  {
+    path: "cv",
+    element: <Cv />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

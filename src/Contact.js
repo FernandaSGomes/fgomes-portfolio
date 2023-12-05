@@ -19,12 +19,8 @@ export default function Projects() {
           </p>
           <h3>LinkedIn</h3>
           <p>
-            <a
-              href="https://www.linkedin.com/in/fernanda-gomes-front-end-developer/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Fernanda Gomes
+            <a href="/images/cv.png" target="_blank" rel="noreferrer">
+              View my resume
             </a>
           </p>
         </div>
