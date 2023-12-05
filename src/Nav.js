@@ -5,7 +5,7 @@ import "./App.css";
 export default function Nav() {
   return (
     <nav
-      class="navbar bg-dark navbar-expand-lg bg-body-tertiary fs-3 p-0"
+      class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark fs-3 p-0"
       data-bs-theme="dark"
     >
       <div class="container-fluid ">

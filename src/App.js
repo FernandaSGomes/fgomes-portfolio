@@ -22,7 +22,7 @@ export default function App() {
         </h2>
         <br />
         <div className="text-center">
-          <div className="box">
+          <div className="box  ">
             <div className="inner">
               <span>Hello World I'm Fernanda</span>
             </div>

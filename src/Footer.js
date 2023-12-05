@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       This project was coded by
       <a
-        href="www.linkedin.com/in/fernanda-gomes-front-end-developer"
+        href="https://www.linkedin.com/in/fernanda-gomes-front-end-developer/"
         target="_blank"
         rel="noreferrer"
       >

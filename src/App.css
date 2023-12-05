@@ -88,3 +88,9 @@ h3 {
   text-align: justify;
   line-height: 32px;
 }
+
+@media (max-width: 800px) {
+  .box {
+    display: none;
+  }
+}
