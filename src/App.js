@@ -9,15 +9,28 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Nav />
-        <br />
-        <button className="btn btn-outline-primary">
-          Hey, WELCOME to my Portfolio!!!
-        </button>
-        <h3> I am</h3>
-        <h1>Fernanda Gomes</h1>
-        <h2>
-          <em>Front-end Developer </em> based in United Kingdom{" "}
+        <div className="text-center">
+          <button className="btn btn-outline-primary btn-lg fs-3 fw-bolder mt-4">
+            WELCOME to my Portfolio!!
+          </button>
+        </div>
+        <h1> Hey, I'm Fernanda Gomes</h1>
+
+        <h2 className="text-center text-light">
+          <em>FRONT-END DEVELOPER</em>
+          <div> 🇬🇧 based in United Kingdom 🇬🇧 </div>
         </h2>
+        <br />
+        <div className="text-center">
+          <div className="box">
+            <div className="inner">
+              <span>Hello World I'm Fernanda</span>
+            </div>
+            <div className="inner">
+              <span>Hello World I'm Fernanda</span>
+            </div>
+          </div>
+        </div>
         <img
           src={fgomes}
           alt="fgomes"

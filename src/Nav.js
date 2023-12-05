@@ -1,14 +1,14 @@
 import React from "react";
 import purpleBrand from "./images/purpleBrand.png";
-import "./Nav.css";
+import "./App.css";
 
 export default function Nav() {
   return (
     <nav
-      class="navbar bg-dark navbar-expand-lg bg-body-tertiary"
+      class="navbar bg-dark navbar-expand-lg bg-body-tertiary fs-3 p-0"
       data-bs-theme="dark"
     >
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <span></span>
         <a class="navbar-brand" href="/">
           <img

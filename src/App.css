@@ -1,22 +1,74 @@
 body {
   background: radial-gradient(
     circle at 24.1% 68.8%,
-    rgb(193, 191, 191) 0%,
-    rgb(242, 240, 240) 99.4%
+    rgb(40, 39, 39) 0%,
+    rgb(33, 32, 32) 99.4%
   );
 }
 h1 {
-  font-size: 80px;
+  font-size: 95px;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #099fff, 0 0 20px #099fff,
     0 0 25px #099fff, 0 0 30px #099fff, 0 0 35px #099fff;
+  padding: 40px;
 }
 h2 {
   color: #fff;
 }
 h3 {
+  text-align: center;
   color: white;
+  margin-bottom: 30px;
+}
+.box {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.box .inner {
+  width: 400px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box .inner:first-child {
+  background-color: rgb(212, 201, 201);
+  color: black;
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+  background-color: #8612f8;
+  color: antiquewhite;
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+  animation-delay: 2.5s;
+  left: -100%;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
 }
 .purpleBrand {
   width: 140px;
@@ -24,4 +76,15 @@ h3 {
 }
 .picture {
   margin-left: auto;
+  width: 300px;
+  margin-top: -130px;
+  border-radius: 30px;
+}
+.container {
+  width: 100%;
+}
+.about-text {
+  max-width: 50%;
+  text-align: justify;
+  line-height: 32px;
 }
